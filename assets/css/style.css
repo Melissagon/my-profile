@@ -32,7 +32,6 @@ nav a {
     color: white;
     padding: 15px 20px;
     text-decoration: none;
-    border: black solid 3px;
 }
 
 /*main*/ 
@@ -76,6 +75,9 @@ aside {
 main {
     flex: 70%;
     padding: 20px;
+}
+main img {
+    max-height: 300px;
 }
 footer {
     padding: 20px;
